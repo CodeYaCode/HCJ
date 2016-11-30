@@ -8,8 +8,8 @@ var app = express();
 
 const DEFAULT_PORT = 80;
 
-app.use(express.static('resources'));
-app.use(express.static('page'));
+app.use(express.static('public'));
+app.use(express.static('views'));
 
 app.get('/', function(req, res) {
 	res.sendFile('index.html');
