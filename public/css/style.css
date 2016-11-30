@@ -12,6 +12,7 @@
 }*/
 
 html, body {
+	font-family: 
 	font-size: 16px;
 	min-width: 1200px;
 	overflow-x: none;
@@ -40,6 +41,7 @@ ul.menu>li {
 	margin-right: 2.25rem;
 	width: 5.375rem;
 	height: 2.5rem;
+	font-size: 15px;
 	background: #00A5F3;
 	float: left;
 }
